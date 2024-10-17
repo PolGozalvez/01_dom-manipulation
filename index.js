@@ -26,6 +26,7 @@ setTimeout(function() {
 // TODO: Create a new list item with the text "Item 4" and append it to the existing list.
 let newListItem = document.createElement('li');
 newListItem.textContent = 'Item 4';
+
 let list = document.querySelector('ul');
 list.appendChild(newListItem);
 
